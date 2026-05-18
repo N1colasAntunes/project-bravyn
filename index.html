@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bravyn</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container nav">
+    <a href="#hero" class="logo">
+      <img src="assets/logo.png" alt="Bravyn Logo" class="logo-img">
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#mvf">Mvv</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg" style="background-image:url('assets/hero.jpg')"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <span class="kicker reveal"></span>
+    <h1 class="reveal"><span class="accent">Coragem</span><br/>para inovar.</h1>
+    <p class="hero-sub reveal">Na Bravyn, transformamos ideias em realidade. Trabalhamos com tecnologia, design e estratégia juntos.</p>
+    <div class="hero-actions reveal">
+      <a href="#sobre" class="btn btn-primary">Sobre nós →</a>
+      <a href="#servicos" class="btn btn-ghost">Serviços</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div><strong>120+</strong><span>Projetos entregues</span></div>
+      <div><strong>40+</strong><span>Clientes ativos</span></div>
+      <div><strong>1</strong><span>Ano no mercado</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+</div>
+
+<!-- SOBRE -->
+<section class="section" id="sobre">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="kicker"> -- SOBRE NÓS</span>
+      <h2>Somos a <span class="accent">Bravyn</span>. Desenvolvemos com <span class="accent">coragem</span>.</h2>
+      <p class="lead">Fundada em 2025, a Bravyn nasceu de quatro mentes que acreditavam que o desenvolvimento de software poderia ser mais.</p>
+      <p>Utilizamos da sua ideia com a nossa estrategia em engenharia de software para desenvolver um produto sensacional. Pronto para utilizar de nossos conhecimentos em desenvolvimento?</p>
+      <div class="badge-row">
+        <span class="badge">Desenvolvimento de software</span>
+        <span class="badge">Mobile</span>
+        <span class="badge">Segurança</span>
+        <span class="badge">I.A</span>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="img-frame">
+        <img src="assets/office.jpg" alt="Escritório da Bravyn" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICOS -->
+<section class="section dark-section" id="servicos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">-- O QUE FAZEMOS</span>
+      <h2>Serviços feitos para marcas <span class="accent">corajosas</span>.</h2>
+    </div>
+    <div class="services-grid">
+      <article class="service-card reveal" data-tilt>
+        <div class="service-num">01</div>
+        <h3>Desenvolvimento Web</h3>
+        <p>Sites institucionais, landing pages e plataformas sob medida com performance de ponta.</p>
+      </article>
+      <article class="service-card reveal" data-tilt>
+        <div class="service-num">02</div>
+        <h3>Apps Mobile</h3>
+        <p>Aplicativos iOS e Android foco em experiência fluida.</p>
+      </article>
+      <article class="service-card reveal" data-tilt>
+        <div class="service-num">03</div>
+        <h3>Design de Produto</h3>
+        <p>UX/UI em apps e plataformas web. prototipagem e design systems.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BANNER IMAGE -->
+<section class="banner" style="background-image:url('assets/pattern.jpg')">
+  <div class="banner-overlay"></div>
+  <div class="container banner-content reveal">
+    <h2><span class="accent">Coragem</span> é nosso jeito de ser.</h2>
+    <p>Ao recebermos uma ideia de produto a primeira coisa a analisar é como isso pode ser ousado?</p>
+  </div>
+</section>
+
+<!-- MISSAO VISAO VALORES -->
+<section class="section" id="mvf">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">// MVV</span>
+      <h2>Missão, Visão e Valores</h2>
+    </div>
+    <div class="mvf-grid">
+      <div class="mvf-card reveal">
+        <div class="mvf-icon">◇</div>
+        <h3>Missão</h3>
+        <p>Elevar marcas ao desenvolver oque precisam combinando tecnologia e design.</p>
+      </div>
+      <div class="mvf-card reveal">
+        <div class="mvf-icon">◇</div>
+        <h3>Visão</h3>
+        <p>Ser reconhecido por bons clientes pelo bom trabalho desenvolvido por nós</p>
+      </div>
+      <div class="mvf-card reveal">
+        <div class="mvf-icon">◇</div>
+        <h3>Valores</h3>
+        <ul class="value-list">
+          <li>Coragem para inovar</li>
+          <li>Obsessão por qualidade</li>
+          <li>Pessoas em primeiro lugar</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPE -->
+<section class="section" id="equipe">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">-- TIME</span>
+      <h2>Equipe</h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-img"><img src="assets/team1.png" alt="Marcos André" loading="lazy"/></div>
+        <h3>Marcos André Aragão da Cunha</h3>
+        <span class="team-role">Lider & Co-fundador</span>
+        <p>Analista de Banco de Dados. Lidera a Bravyn em todas as áreas.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img"><img src="assets/team2.png" alt="Nicolas Antunes" loading="lazy"/></div>
+        <h3>Nicolas Antunes Messias</h3>
+        <span class="team-role">CTO & Fundador</span>
+        <p>Desenvolvedor Back-End. Responsável pela parte lógica da empresa.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img"><img src="assets/team3.png" alt="Julia Carvalho da Costa" loading="lazy"/></div>
+        <h3>Julia Carvalho da Costa</h3>
+        <span class="team-role">CPO</span>
+        <p>Desenvolvedora Front-End, Especialista em arquitetura visual. Responsável pela linguagem visual da Bravyn.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-img"><img src="assets/team4.png" alt="Gustavo Lima Goes" loading="lazy"/></div>
+        <h3>Gustavo Lima Goes</h3>
+        <span class="team-role">CIO</span>
+        <p>Desenvolvedor Mobile. Responsavel por toda a parte de aplicação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container two-col-faq">
+    <div class="reveal">
+      <span class="kicker">-- FAQ</span>
+      <h2>Perguntas frequentes.</h2>
+      <p class="lead">Não encontrou sua pergunta?</p>
+      <a href="#contato" class="btn btn-primary">Falar com o time</a>
+    </div>
+    <div class="faq-list reveal">
+      <details class="faq-item"><summary>Quanto custa um projeto com a Bravyn?<span class="plus">+</span></summary><p>Cada projeto é único. Após uma conversa inicial, enviamos uma proposta detalhada.</p></details>
+      <details class="faq-item"><summary>Qual o prazo médio de entrega?<span class="plus">+</span></summary><p>Varia conforme o escopo. Landing pages ficam prontas em menos tempo comparado a plataformas completas.</p></details>
+      <details class="faq-item"><summary>Quais tecnologias vocês usam?<span class="plus">+</span></summary><p>Dentre as principais utilizamos HTML, CSS, Javascript, C#, Dart, Flutter, Etc.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="cta-bg" style="background-image:url('assets/meeting.jpg')"></div>
+  <div class="banner-overlay"></div>
+  <div class="container cta-content reveal">
+    <span class="kicker"></span>
+    <h2>Pronto para criar algo <span class="accent">corajoso</span>?</h2>
+    <p>Nos fale sobre seu projeto.</p>
+    <a href="#contato" class="btn btn-primary big">Iniciar projeto →</a>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="section" id="contato">
+  <div class="container two-col">
+    <div class="reveal">
+      <span class="kicker">-- CONTATO</span>
+      <h2>Contate-<span class="accent">nos</span>.</h2>
+      <p class="lead">Preencha o formulário, envie um email ou contate o telefone.</p>
+      <ul class="contact-list">
+        <li><strong>E-mail</strong> bravynprojetofinal@gmail.com</li>
+        <li><strong>Telefone</strong> +55 (11) 98112-5234</li>
+        <li><strong>Endereço</strong> R. Guaipá, 678 - Vila Leopoldina, São Paulo</li>
+      </ul>
+    </div>
+    <form class="form reveal" id="contactForm">
+      <label>Nome<input type="text" name="nome" required placeholder="Nome completo"/></label>
+      <label>E-mail<input type="email" name="email" required placeholder="@gmail.com"/></label>
+      <label>Mensagem<textarea name="mensagem" rows="5" required placeholder="sobre a ideia do seu projeto..."></textarea></label>
+      <button type="submit" class="btn btn-primary">Enviar mensagem →</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#hero" class="logo">
+        <img src="assets/logo.png" alt="Bravyn Logo" class="logo-img">
+      </a>
+      <p class="footer-tag">Coragem para inovar.</p>
+    </div>
+    <div>
+  <h4>Conecte-se</h4>
+
+  <div class="social-links">
+    <a href="https://www.instagram.com/bravyn_innovation/" target="_blank" aria-label="Instagram">Instagram</a>
+    <a href="https://www.youtube.com/channel/UC4FFZScSCIUIFYlfZgCYl5w" target="_blank" aria-label="YouTube">Youtube</a>
+    <a href="https://wa.me/5511981125234?text=Opá,%20Estou%20interessado%20no%20serviço%20do%20BRAVYN%20queria%20mais%20informações!" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+    <a href="mailto:bravynprojetofinal@gmail.com?subject=Opa, gostaria de saber mais informações&body=Olá, gostaria de saber mais sobre seus serviços." target="_blank" aria-label="Email">E-mail</a>
+    <a href="https://x.com/Bravyn_" target="_blank" aria-label="X">Twitter</a>
+  </div>
+</div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Bravyn. Todos os direitos reservados.</span>
+    <button id="topBtn" class="top-btn">↑ Voltar ao topo</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
